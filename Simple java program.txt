@@ -1,0 +1,296 @@
+import java.util.Scanner;
+
+public class conditionsQuestions {
+    public static void main(String[] args) {
+////        Area Of Circle Java Program
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number");
+//        int r = sc.nextInt();
+//        double area = 2*3.142*r;
+//        System.out.println(area);
+//
+
+
+////        Area Of Triangle
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of hight and base");
+//        int b = sc.nextInt();
+//        int h = sc.nextInt();
+//        int area = (b*h)/2;
+//        System.out.println(area);
+
+
+        ///////////Area Of Rectangle Program ////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of length and width");
+//        int l = sc.nextInt();
+//        int w = sc.nextInt();
+//        int area = l*w;
+//        System.out.println(area);
+
+
+//        Area Of Isosceles Triangle//////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter two numbers of base and height");
+//        int b = sc.nextInt();
+//        int h = sc.nextInt();
+//        int area = (b*h)/2;
+//        System.out.println(area);
+
+   ///////////////////     Area Of Parallelogram////////////////////
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter two numbers of height and base respectively");
+//        int h = sc.nextInt();
+//        int b = sc.nextInt();
+//        int area = b*h;
+//        System.out.println(area);
+
+
+//        Area Of Rhombus
+
+//    Scanner sc = new Scanner(System.in);
+//    System.out.println("Enter the value of p and q");
+//    int p = sc.nextInt();
+//    int q = sc.nextInt();
+//    int area = (p*q)/2;
+//    System.out.println(area);
+
+
+     ///////   Area Of Equilateral Triangle
+//
+//    Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of side a");
+//        int a = sc.nextInt();
+//        double area = (Math.sqrt(3)/4)*a;
+//        System.out.println(area);
+
+////////////////// Perimeter Of Circle //////////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        int r = sc.nextInt();
+//        double perameter = 2*Math.PI*r;
+//        System.out.println(perameter);
+
+
+/////////////        Perimeter Of Equilateral Triangle
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of side");
+//        int side = sc.nextInt();
+//        int perimeter = 3*side;
+//        System.out.println(perimeter);
+
+
+        //////////////Perimeter Of Parallelogram //////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of a and b");
+//        int a = sc.nextInt();
+//        int b = sc.nextInt();
+//        int perimeter = 2*(a+b);
+//        System.out.println(perimeter);
+
+///////////   Perimeter Of Rectangle//////////////
+
+//Scanner sc = new Scanner(System.in);
+//System.out.println("Enter the number of l and w");
+//int l = sc.nextInt();
+//int w = sc.nextInt();
+//int perimeter = 2*(l+w);
+//System.out.println(perimeter);
+
+
+        ////////////////// Perimeter Of Square //////////
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the side of a");
+//        int a = sc.nextInt();
+//        int perimeter = 4*a;
+//        System.out.println(perimeter);
+
+////////////////// Perimeter Of Rhombus ///////////////
+
+//        Scanner sc =new Scanner(System.in);
+//        System.out.println("Enter the number of a");
+//        int a = sc.nextInt();
+//        int perimeter = 4*a;
+//        System.out.println(perimeter);
+
+////////////////Volume Of Cone Java Program//////////
+
+//        Scanner sc =new Scanner(System.in);
+//        System.out.println("Enter the number of height and radius");
+//        int r = sc.nextInt();
+//        int h = sc.nextInt();
+//        double volume = (h/3)*Math.PI*r*r;
+//        System.out.println(volume);
+
+////////////////////////////        Volume Of Prism ////////////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        int l = sc.nextInt();
+//        int w = sc.nextInt();
+//        int h = sc.nextInt();
+//        double volume = l*w*h;
+//        System.out.println(volume);
+
+
+
+  ////////////////      Volume Of Cylinder   //////////////////
+
+//Scanner sc = new Scanner(System.in);
+//System.out.println("Enter the number of r and h");
+//int r = sc.nextInt();
+//int h = sc.nextInt();
+//double volume = Math.PI*r*r*h;
+//System.out.println(volume);
+
+        /////////////////// Volume Of Sphere ///////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of radius");
+//        int r =sc.nextInt();
+//        double volume  = (4/3)*Math.PI*r;
+//        System.out.println(volume);
+
+
+        /////////// Volume Of Pyramid /////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of length,width and hight");
+//        int l = sc.nextInt();
+//        int w = sc.nextInt();
+//        int h = sc.nextInt();
+//        int volume = l*w*h/3;
+//        System.out.println(volume);
+
+
+        ///////////// Curved Surface Area Of Cylinder /////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of r and h");
+//        int r = sc.nextInt();
+//        int h = sc.nextInt();
+//        double surfaceArea = 2*Math.PI*r*h + 2*Math.PI*r*r;
+//        System.out.println(surfaceArea);
+
+
+        ///////////Total Surface Area Of Cube ///////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the side of a");
+//        int a = sc.nextInt();
+//        int volume = 6*a*a;
+//        System.out.println(volume);
+
+
+//////////////////Fibonacci Series In Java Programs ///////////
+
+//       Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of n");
+//       int a = 0;
+//       int b = 1;
+//       int count = 2;
+//       int n = sc.nextInt();
+//
+//       while (count<=n){
+//           int temp = b;
+//           b +=a;
+//           a = temp;
+//           count++;
+//           System.out.println(b);
+//       }
+
+///////////////////////////// Subtract the Product and Sum of Digits of an Integer ////////////////
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Ener the number of n");
+//        int n = sc.nextInt();
+//        int sum = 0;
+//        int product = 1;
+//        int ans;
+//        while (n>0){
+//
+//            sum +=n%10;
+//            product =product*n%10;
+//            n /= 10;
+//        }
+//        ans = product-sum;
+//        System.out.println(ans);
+
+
+        /////////////// Input a number and print all the factors of that number (use loops). //////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number");
+//        int num = sc.nextInt();
+//        System.out.print("The factor of "+num + " is:");
+//        for(int i=1;i<=num;i++) {
+//            if (num % i == 0) {
+//                System.out.print(" "+i);
+//            }
+//        }
+
+        ////////// Take integer inputs till the user enters 0 and print the sum of all numbers ///////
+////
+//        int ans = 0;
+//        while (true){
+//            Scanner sc = new Scanner(System.in);
+//            System.out.println("Enter the number");
+//            int num = sc.nextInt();
+//            if (num>0){
+//                ans +=num;
+//            }
+//            else if (num==0){
+//                break;
+//            }
+//            else {
+//                System.out.println("Invalid operators");
+//            }
+//        }
+//        System.out.println(ans);
+
+
+        ////////////////// Take integer inputs till the user enters 0 and print the largest number from all. /////
+
+//int largest = 0;
+//
+//while (true){
+//    Scanner sc = new Scanner(System.in);
+//    System.out.println("Enter the number");
+//    int n = sc.nextInt();
+//    if (n>0 || n<0){
+//        if (n>largest){
+//            largest = n;
+//        }
+//    } else if (n==0) {
+//        break;
+//    }
+//    else {
+//        System.out.println("Invalid number");
+//    }
+//
+//
+//}
+//        System.out.println("The largest number you typed is: "+ largest);
+//
+
+
+       ////////////////// Addition Of Two Numbers ////////////
+
+//       Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter two numbers");
+//       int a = sc.nextInt();
+//       int b = sc.nextInt();
+//
+//       int ans = a+b;
+//        System.out.println(ans);
+
+
+        }
+}
+
