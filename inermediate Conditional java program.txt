@@ -1,0 +1,496 @@
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class IntermediateCondition {
+    public static void main(String[] args) {
+
+        ///////////////// Factorial Program In Java /////////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        int n =sc.nextInt();
+//        int factorial = 1;
+//
+//       for(int i=1;i<=n;i++){
+//           factorial *=i;
+//        }
+//        System.out.println("The factorial of "+n+" is: "+ factorial);
+//
+
+
+        //////////////////// Calculate electricity bill ////////////////
+
+        ////////// 100unit and less will be charged rs7
+        ////////// 200unit and less will be charged rs8
+        ////////// 300unit and less will be charged rs10
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your bill units");
+//        int unit = sc.nextInt();
+//        double bill = 0;
+//        if (unit<=100 && unit>100){
+//            bill = 7*unit;
+//        }
+//        if (unit>100 && unit<=200){
+//            bill = 100*7 + (unit-100)*8;
+//        }
+//        if (unit>200 && unit<=300){
+//            bill = 100*7+100*8+(unit-200)*10;
+//        }
+//        if (unit>300){
+//            bill = 100*7+100*8+100*10+(unit-300)*12;
+//        }
+//        System.out.println("The total bill of "+unit+" units is " + bill);
+
+////////////////////// Calculate Average Of N Numbers /////////////////////////
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number:");
+//        int sum = 0;
+//        int count = 0;
+//        int num = sc.nextInt();
+//        int f = num;
+//        while (num!=0){
+//          sum += num%10;
+//           count++;
+//            num /=10;
+//        }
+//        int ans = sum/count;
+//        System.out.println("Average of "+f+" is "+ ans);
+
+
+
+        ///////////////////////  Calculate Discount Of Product //////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your product price");
+//        int pkr = sc.nextInt();
+//        System.out.println("Enter your discount");
+//        int dis = sc.nextInt();
+//        int discount = 100-dis;
+//        int price = (pkr *discount)/100;
+//        System.out.println(price);
+
+
+        //////////////////////  Calculate Batting Average  ///////////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your runs");
+//        int runs = sc.nextInt();
+//        System.out.println("Enter your matches");
+//        int matches = sc.nextInt();
+//        int average = runs/matches;
+//        System.out.println(average);
+
+/////////////////////////  Power In JavaPower In Java //////////////////
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of base and exponent");
+//        int base  = sc.nextInt();
+//        int exponent = sc.nextInt();
+//        int result =1;
+//
+//        while (exponent!=0){
+//            result *= base;
+//            exponent--;
+//        }
+//        System.out.println(result);
+
+         /////////////////////// Sum Of N Numbers ///////////////////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number");
+//        int num = sc.nextInt();
+//        int sum = 0;
+//        for (int i=1;i<=num;i++){
+//            sum += i;
+//        }
+//        System.out.println(sum);
+
+
+        ////////////////// Armstrong Number In Java /////////////////////
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number");
+//        int n = sc.nextInt();
+//        int sum = 0;
+//        int orignalNum = n;
+//        int reminder;
+//
+//        while (n!=0){
+//            reminder = n%10;
+//            sum += reminder*reminder*reminder;
+//            n /=10;
+//        }
+//
+//        if (orignalNum==sum){
+//            System.out.println("It is an armstrong number");
+//        }
+//        else {
+//            System.out.println("It is not an armstrong number");
+//        }
+//
+
+
+        ////////////// Reverse A String In Java /////////////////
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter a string");
+//        String str = sc.next();
+//        String reverse = "";
+//
+//        for (int i=str.length()-1;i>=0;i--){
+//            reverse += str.charAt(i);
+//        }
+//        System.out.println(reverse);
+
+/////////////////////////// Find if a number is palindrome or not ////////////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        int num = sc.nextInt();
+//        int origNum = num;
+//        int result =0;
+//        int reminder;
+//
+//        while (num!=0){
+//            reminder = num%10;
+//            result = result*10+reminder;
+//            num /=10;
+//        }
+//        if (origNum==result){
+//            System.out.println("It is a palindrome");
+//        }
+//        else {
+//            System.out.println("It is not a palindrome");
+//        }
+
+        //////////////// HCF and LCM Of Two Numbers Program /////////////////////
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter number 1");
+//        int numb1 = sc.nextInt();
+//        int origNum1 = numb1;
+//        System.out.println("Enter number 2");
+//        int numb2 = sc.nextInt();
+//        int origNumb2 = numb2;
+//         while (numb1!=numb2){
+//             if (numb1>numb2){
+//                 numb1 -=numb2;
+//             }
+//             else {
+//                 numb2 -=numb1;
+//             }
+//         }
+//
+//        int lcm = (origNum1*origNumb2)/numb1;
+//        System.out.println("The highest common factor of "+origNum1+" and "+origNumb2+" is " +numb1);
+//        System.out.println("The least common multiple of "+origNum1+" and "+origNumb2+" is "+ lcm);
+
+        ////////////////////////////////////  Java Program Vowel Or Consonant /////////////////
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter a character");
+//        char charac = sc.next().toLowerCase().trim().charAt(0);
+//        if (charac=='a'||charac=='e'||charac=='i'||charac=='o'||charac=='u'){
+//            System.out.println("It is vowel");
+//        }
+//        else {
+//            System.out.println("It is a conostant");
+//        }
+
+
+        ////////////////////////////// LCM of two numbers //////////////////////
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number 1");
+//        int numb1 = sc.nextInt();
+//        System.out.println("Enter the number 2");
+//        int numb2 = sc.nextInt();
+//
+//        int lcm = (numb1>numb2)?numb1:numb2;
+//
+//        while (true){
+//            if (lcm%numb1==0 && lcm%numb2==0){
+//                System.out.println("The lcm of "+numb1+" and "+numb2+" is "+lcm);
+//                break;
+//            }
+//            ++lcm;
+//        }
+
+        ///////////////////// Perfect Number ////////////////////////
+
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter a number");
+//        int numb = sc.nextInt();
+//        int sum = 0;
+//        for (int i=1;i<numb;i++){
+//            if (numb%i==0){
+//                sum += i;
+//            }
+//        }
+//        if (sum==numb){
+//            System.out.println("It is a perfect number "+ sum);
+//        }
+//        else {
+//            System.out.println("It is not a perfect number");
+//        }
+
+
+        ////////////////////////// Check Leap Year Or Not //////////////////////
+//
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the year");
+//        int year = sc.nextInt();
+//        boolean flag = false;
+//
+//        if (year%4==0){
+//            if (year%100==0){
+//                if (year%400==0){
+//                    flag = true;
+//                }
+//                else {
+//                    flag = false;
+//                }
+//            }
+//            else {
+//                flag = true;
+//            }
+//        }
+//        else {
+//            flag = false;
+//        }
+//
+//        if (flag){
+//            System.out.println("It is a leap year");
+//        }
+//        else {
+//            System.out.println("It is not a leap year");
+//        }
+
+        ///////////////////////////////  Sum Of A Digits Of Number  //////////////////////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Ener the number");
+//        int num = sc.nextInt();
+//        int sum = 0;
+//        int reminder;
+//
+//        while (num>0){
+//            reminder = num%10;
+//            sum += reminder;
+//            num /=10;
+//        }
+//
+//        System.out.println("The sum of digit is: "+ sum);
+
+
+
+        //////////////////////  Kunal is allowed to go out with his friends only
+        // on the even days of a given month. Write a program to count the number
+        // of days he can go out in the month of August. /////////////
+
+
+//        int august = 31;
+//        int count = 0;
+//
+//        for (int i=1;i<=august;i++){
+//            if (i%2==0){
+//                count++;
+//            }
+//        }
+
+//        System.out.println("Kunal allowed to go only "+count+" days outside in the month of august");
+
+
+//      Scanner sc = new Scanner(System.in);
+//        int positiveEven = 0;
+//        int negative = 0;
+//        int positiveOdd = 0;
+//
+//
+//        while (true){
+//            System.out.println("Enter the number");
+//            int num = sc.nextInt();
+//
+//           if (num>0){
+//                if (num%2==0){
+//                    positiveEven +=num;
+//                }
+//                else {
+//                    positiveOdd +=num;
+//                }
+//           }
+//           else if (num==0){
+//               break;
+//           }
+//           else {
+//            negative += num;
+//           }
+//
+//        }
+//
+//        System.out.println("Sum of positive even number is "+positiveEven);
+//        System.out.println("Sum of negative odd number is "+ positiveOdd);
+//        System.out.println("Sum of negtive number is "+ negative);
+
+
+////////////////////////////// Write a program to print whether a number is even or odd, also take input
+// from the user. /////
+
+//       Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number");
+//        int numb = sc.nextInt();
+//        if (numb%2==0){
+//            System.out.println("It is an even number");
+//        }
+//        else {
+//            System.out.println("It is odd number");
+//        }
+
+
+        ////////////////    Take name as input and print a greeting message for that particular name. ////////////
+
+
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your name");
+//        String name = sc.next();
+//        System.out.println("Hello "+name);
+
+
+
+
+        ///////////// Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number 1");
+//        int numb1 = sc.nextInt();
+//        System.out.println("Enter the number 2");
+//        int numb2 = sc.nextInt();
+//        int answer =0;
+//        System.out.println("Enter the operators");
+//        char operrators = sc.next().trim().charAt(0);
+//        if (operrators=='+'){
+//            answer = numb1+numb2;
+//            System.out.println("The sum of two number is "+answer);
+//        } else if (operrators=='-') {
+//            answer = numb1 - numb2;
+//            System.out.println("The subtract of two number is "+answer);
+//        } else if (operrators=='*') {
+//            answer = numb1 * numb2;
+//            System.out.println("The multiplication of two number is "+answer);
+//        } else if (operrators=='/') {
+//            answer = numb1/numb2;
+//            System.out.println("The division of two number is "+answer);
+//        }
+//        else {
+//            System.out.println("Invalid operators");
+//        }
+
+
+
+        ////////// Take 2 numbers as input and print the largest number     ///////////////
+
+ //       Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number 1");
+//        int numb1 = sc.nextInt();
+//        System.out.println("Enter the number 2");
+//        int numb2 = sc.nextInt();
+//
+//        if (numb1>numb2){
+//            System.out.println(numb1+" is a greatest number among 2");
+//        }
+//        else {
+//            System.out.println(numb2+" is a greatest number among 2");
+//        }
+
+
+        ////////////////////  Input currency in rupees and output in USD. ///////////////
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your Rupees here");
+//        int PKR = sc.nextInt();
+//        Double USD = PKR*0.00408;
+//        System.out.println("The currency in USD is: "+USD);
+
+
+        ///////////////// To calculate Fibonacci Series up to n numbers. /////////////////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number");
+//        int n = sc.nextInt();
+//        int a = 0;
+//        int b = 1;
+//        int count = 2;
+//        while (count<=n){
+//           int temp = b;
+//           b+= a;
+//           a = temp;
+//            System.out.println(b);
+//            count++;
+//        }
+
+
+        ////////////////   To find out whether the given String is Palindrome or not.  ////////////////////
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your string here");
+//        String str = sc.next();
+//        String reverse ="";
+//
+//        for (int i=str.length()-1;i>=0;i--){
+//            reverse +=str.charAt(i);
+//        }
+//        System.out.println(reverse);
+//        System.out.println(str);
+//        if (str.equals(reverse)){
+//            System.out.println("It is a palindrome");
+//        }
+//        else {
+//            System.out.println("It is not a palindrome");
+//        }
+//        System.out.println(reverse==str);
+
+
+        ///////////////////////   To find Armstrong Number between two given number. //////////////////
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your first number");
+//        int numb = sc.nextInt();
+//        int origNumb = numb;
+//        int sum=0;
+//        int reminder;
+//
+//        while (numb>0)
+//        {
+//             reminder = numb%10;
+//             sum += reminder*reminder*reminder;
+//             numb /=10;
+//        }
+//        if (origNumb==sum)
+//            {
+//                System.out.println(origNumb+" is an Armstrong");
+//            }
+//            else
+//            {
+//                System.out.println(origNumb+" is not an Armstrong");
+//            }
+
+
+        
+
+
+
+    }
+}
