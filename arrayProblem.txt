@@ -1,0 +1,73 @@
+import java.util.Scanner;
+
+public class arrayProblem {
+    public static void main(String[] args) {
+//        Take an array of names as input from the user and print them on the screen.
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the size of array");
+//        int size = sc.nextInt();
+//        int[] arr = new int[size];
+//        for (int i=0;i<arr.length;i++){
+//            arr[i] = sc.nextInt();
+//        }
+//
+//        for (int i=0;i<size;i++){
+//            System.out.print(arr[i]+" ");
+//        }
+
+      //////////////////////////// Find the maximum & minimum number in an array of integers.  //////////
+
+//
+//      Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the siz of array");
+//        int size = sc.nextInt();
+//        int[] arr = new int[size];
+//        for (int i=0;i<size;i++){
+//            arr[i] = sc.nextInt();
+//        }
+//        int max = arr[0];
+//        int min = arr[0];
+//
+//
+//        for (int i=0;i<size;i++){
+//            if (arr[i]>max){
+//                max = arr[i];
+//            } else if (arr[i]<min) {
+//                min = arr[i];
+//            }
+//        }
+//
+//
+//        System.out.println("The maximum number in array is: "+ max);
+//        System.out.println("The minimum number in array is: "+ min);
+//
+ //
+        //Take an array of numbers as input and check if it is an array sorted in ascending order. ///
+
+//  Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the size of an array");
+//        int size = sc.nextInt();
+//        int[] arr = new int[size];
+//        for (int i=0;i<size;i++){
+//            arr[i] = sc.nextInt();
+//        }
+//
+//        boolean flag = true;
+//
+//        for (int i=0;i<size-1;i++){
+//            if (arr[i]>arr[i+1]){
+//                flag=false;
+//            }
+//
+//        }
+//
+//if (flag){
+//    System.out.println("It is assending");
+//}
+//else{
+//    System.out.println("It is not asennding");
+//}
+
+
+    }
+}
