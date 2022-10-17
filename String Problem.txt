@@ -27,14 +27,21 @@ public class stringProblem {
 
 
 //        //////////////////// Palindrome String  ///////////////////
-//
+
 //        Scanner sc = new Scanner(System.in);
-//        System.out.println("Enter the string");
+//        System.out.println("Enter your string here");
 //        String str = sc.next();
-//        String reverseStr = "";
+//        String reverse ="";
 //
 //        for (int i=str.length()-1;i>=0;i--){
-//            reverseStr += str.charAt(i);
+//            reverse +=str.charAt(i);
+//        }
+//
+//        if (str.equals(reverse)){
+//            System.out.println("It is a palindrome");
+//        }
+//        else {
+//            System.out.println("It is not a palindrome");
 //        }
 
         //// Take an array of Strings input from the user & find the cumulative
@@ -114,7 +121,26 @@ public class stringProblem {
 //
 //        System.out.println(str);
 //
+        
+        
+        ///////////////// Palindrome String //////////////
+        
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the string");
+//        String str = sc.next();
+//        String reverseStr = "";
+//
+//        for (int i=str.length()-1;i>=0;i--){
+//        reverseStr +=str.charAt(i);
+//}
+//        if (str.compareTo(reverseStr)==0){
+//            System.out.println("It is palindrome");
+//        }
+//        else {
+//            System.out.println("It is not palindrome");
+//        }
 
 
+       
     }
 }
