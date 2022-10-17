@@ -1,0 +1,120 @@
+import java.util.Scanner;
+
+public class stringProblem {
+    public static void main(String[] args) {
+        /////////////////// Print the string in different line //////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your name");
+//        String name = sc.nextLine();
+//        for (int i=name.length()-1;i>=0;i--){
+//            System.out.println(name.charAt(i));
+//        }
+
+
+
+        //////////  comaparing the string /////////
+//
+//        String name1 = "Ammar";
+//        String name2 = "Ammar";
+//        if (name1.compareTo(name2)==0){
+//            System.out.println("String are equal");
+//        }
+//        else {
+//            System.out.println("Strings are not equal");
+//        }
+
+
+
+//        //////////////////// Palindrome String  ///////////////////
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the string");
+//        String str = sc.next();
+//        String reverseStr = "";
+//
+//        for (int i=str.length()-1;i>=0;i--){
+//            reverseStr += str.charAt(i);
+//        }
+
+        //// Take an array of Strings input from the user & find the cumulative
+        // (combined) length of all those strings.
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the size of an array");
+//        int size = sc.nextInt();
+//        int[] arr = new int[size];
+//
+//        for (int i=0;i<size;i++){
+//            arr[i] = sc.nextInt();
+//        }
+//
+//        System.out.println("The lenth of array is: "+ arr.length);
+
+
+//////////////////// Input a string from the user. Create a new string called ‘result’ in which you will replace the letter ‘e’
+// /////////////////in the original string with letter ‘i’.
+        ///// Example :
+        //original = “eabcdef’ ; result = “iabcdif”
+        //Original = “xyz” ; result = “xyz”
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the string");
+//        String str = sc.next();
+//        String result = "";
+//
+//        for (int i=0;i<str.length();i++){
+//            if (str.charAt(i)=='a'){
+//                result += 'i';
+//            }
+//            else {
+//                result += str.charAt(i);
+//            }
+//        }
+//            System.out.print(result);
+
+
+
+        ///////////// Input an email from the user. You have to create a username from the email by
+        // deleting the part that comes after ‘@’. Display that username to the user.
+        //Example :
+        //email = “apnaCollegeJava@gmail.com” ; username = “apnaCollegeJava”
+        //email = “helloWorld123@gmail.com”; username = “helloWorld123” //////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter your email");
+//        String email = sc.next();
+//        String user = "";
+//
+//        for (int i=0;i<email.length();i++){
+//            if (email.charAt(i)=='@'){
+//                break;
+//            }
+//            else {
+//                user += email.charAt(i);
+//            }
+//        }
+//
+//        System.out.println("The user of name of your email is :"+user);
+
+ ///////////////////////// Reverse the string ///////////////
+
+//       StringBuilder str = new StringBuilder("Ammar");
+//       for (int i=0;i<str.length()/2;i++){
+//           int first = i;
+//           int last = str.length()-1-i;
+//
+//           char firstChar = str.charAt(first);
+//           char lastChar = str.charAt(last);
+//
+//           str.setCharAt(last,firstChar);
+//           str.setCharAt(first,lastChar);
+//       }
+//
+//        System.out.println(str);
+//
+
+
+    }
+}
