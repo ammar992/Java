@@ -1,0 +1,215 @@
+import java.util.Scanner;
+
+public class recursion {
+    public static void main(String[] args) {
+
+        //////////////// print number from 5 to 1
+
+
+//        printNum(n);
+
+
+        //////////////// print number from 1 to 5 //////////////
+
+//        printN(n);
+
+        //////////////    Factorial of n numbers ///////////////////
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of n");
+//        int n = sc.nextInt();
+//        int ans = calcFactorial(n);
+//        System.out.println("The factorial of "+n+" is: "+ans);
+
+        //////////////     fabiconal series   //////////////
+//        Scanner sc = new Scanner(System.in);
+//        int a = 0;
+//        int b = 1;
+//        System.out.println(a);
+//        System.out.println(b);
+//        System.out.println("Enter the number of n");
+//        int n = sc.nextInt();
+//        printFb(a,b,n-2);
+
+
+        ///////////////// Calculation powerr  //////////////////
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of x");
+//        int x = sc.nextInt();
+//        System.out.println("Enter the number of n");
+//        int n = sc.nextInt();
+//        int ans = calPower(x,n);
+//        System.out.println(ans);
+
+
+
+         /////////// febiconal number //////
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of n");
+//        int n = sc.nextInt();
+//        int ans = fabi(n);
+//        System.out.println(ans);
+
+
+        ////////// n to 1 //////////
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of n");
+//        int n = sc.nextInt();
+//        printN(n);
+
+
+        //////// 1 to n /////////
+
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of n");
+//        int n = sc.nextInt();
+//        printN(n);
+
+
+
+        //////////////////// Factorial of n number //////
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of n");
+//        int n = sc.nextInt();
+//       int ans = printN(n);
+//        System.out.println(ans);
+
+
+
+        ///////////////// Sum of n numbers ////////////
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of n");
+//        int n = sc.nextInt();
+//        int ans = SumofN(n);
+//        System.out.println(ans);
+
+
+        //////////// Sum of n digits numbers  ///////////
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number of digits");
+//        int n = sc.nextInt();
+//        int ans = sumOfDigits(n);
+//        System.out.println("The sum of digits is: "+ans);
+
+
+        /////////////// Product Of digits //////////////
+
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the number digits");
+//        int n =sc.nextInt();
+//        int ans = prodOfDigits(n);
+//        System.out.println("The product of n digits number is: "+ans);
+    }
+
+
+//    public static void printNum(int n){
+//        if (n==0){
+//            return;
+//        }
+//        System.out.println(n);
+//        printNum(n-1);
+//    }
+//    public static void printN(int n){
+//        if (n==6){
+//            return;
+//        }
+//        System.out.println(n);
+//        printN(n+1);
+//    }
+
+//public static int calcFactorial(int n){
+//
+//        if (n==1 || n==0){
+//            return 1;
+//        }
+//       int factorial_1 =  calcFactorial(n-1);
+//       int fact_n = n*factorial_1;
+//       return fact_n;
+//
+//}
+
+//    public static void printFb(int a,int b,int n){
+//        if (n==0){
+//            return;
+//        }
+//        int c = a+b;
+//        System.out.println(c);
+//        printFb(b,c,n-1);
+//    }
+
+//    public static void calPower(int x,int n){
+//        if (n==0){
+//            return 1;
+//        }
+//        if (x==0){
+//            return 0;
+//        }
+//        int power_1 = calPower(x,n-1);
+////        int power = x*power_1;
+//        System.out.println(power_1);
+//    }
+
+//public static int fabi(int n){
+//        if (n<2){
+//            return n;
+//        }
+//        return fabi(n-1)+fabi(n-2);
+//}
+
+
+//    public static void printN(int n){
+//        if (n==0){
+//            return;
+//        }
+//
+//        System.out.println(n);
+//        printN(n-1);
+//
+//    }
+//    public static void printN(int n){
+//        if (n==0){
+//            return;
+//        }
+//        printN(n-1);
+//        System.out.println(n);
+//    }
+
+
+//public static int printN(int n){
+//        if (n==1){
+//            return 1;
+//        }
+//        return n*printN(n-1);
+//
+//}
+
+//public static int SumofN(int n){
+//      if (n<=1){
+//          return 1;
+//      }
+//      return n+SumofN(n-1);
+//
+//}
+//public static int sumOfDigits(int n){
+//        if (n==0){
+//            return 0;
+//        }
+//        return n%10 + sumOfDigits(n/10);
+//}
+//   public static int prodOfDigits(int n){
+//        if (n%10==n){
+//            return n;
+//        }
+//        return n%10 * prodOfDigits(n/10);
+//   }
+
+
+
+
+}
+
+
+
+
