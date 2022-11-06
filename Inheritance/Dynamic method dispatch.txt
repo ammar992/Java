@@ -1,0 +1,35 @@
+
+///////////// Dynamic method dispatch ///////////////
+
+class Phone{
+    public void Music(){
+        System.out.println("PLying music");
+    }
+    public void game(){
+        System.out.println("PLaying games");
+    }
+}
+
+class smartPhone extends Phone{
+    @Override
+    public void game(){
+        System.out.println("installing games");
+    }
+
+    public void random(){
+        System.out.println("Running ....");
+    }
+
+
+}
+
+public class classpracticeQuestion {
+
+    public static void main(String[] args) {
+        Phone ph = new smartPhone();
+        ph.game();
+        ph.Music();
+        
+//        ph.random ///// not allowed
+    }
+}

@@ -1,0 +1,23 @@
+
+//////////// Create a class cellphone with method to print
+/// ringing
+/// vibrating
+
+
+class cellPhone{
+    public void Ringing(){
+        System.out.println("Ringing");
+    }
+    public void Vibrating(){
+        System.out.println("Vibrating");
+    }
+}
+
+public class classpracticeQuestion {
+
+    public static void main(String[] args) {
+      cellPhone mobile = new cellPhone();
+      mobile.Ringing();
+      mobile.Vibrating();
+    }
+}

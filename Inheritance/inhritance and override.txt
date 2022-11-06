@@ -1,0 +1,27 @@
+//////////////// inheritance overide ////////////
+
+
+class AA {
+
+    public void meth(){
+        System.out.println("I am a method of A");
+    }
+}
+
+class BB extends AA{
+    public void meth1(){
+        System.out.println("I a method of class B");
+    }
+    public void meth(){
+        System.out.println("I am a method of class B");
+    }
+}
+public class classpracticeQuestion {
+
+    public static void main(String[] args) {
+
+BB b = new BB();
+b.meth();
+
+    }
+}

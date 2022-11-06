@@ -1,0 +1,38 @@
+
+/////////////// create a class cylender and use getter and setter to set its radius and height
+
+class cylender1{
+    private int radius;
+    private int height;
+
+    public int getRadius() {
+        return radius;
+    }
+
+    public void setRadius(int radius) {
+        this.radius = radius;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+}
+
+
+
+public class classpracticeQuestion {
+
+    public static void main(String[] args) {
+        cylender1 cylender = new cylender1();
+        cylender.setHeight(5);
+        cylender.setRadius(10);
+
+
+        System.out.println(cylender.getHeight());
+        System.out.println(cylender.getRadius());
+    }
+}

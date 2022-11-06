@@ -1,0 +1,36 @@
+
+//////////// Create a class employe with the following properties and methods
+// salary(property)(int)
+//// get Salary(method)
+////name(property)(String)
+//// getName(method)
+//// setName(method)(changing name)
+
+
+class Employe1{
+    int salary;
+    String name;
+
+
+    public int getSalary(){
+        return salary;
+    }
+
+    public String setName(String name){
+        return this.name=name;
+    }
+    public String getName(){
+        return name;
+    }
+}
+
+public class classpracticeQuestion {
+
+    public static void main(String[] args) {
+        Employe1 Ammar = new Employe1();
+        Ammar.setName("Ammar Siddiqui");
+        System.out.println(Ammar.getName());
+        Ammar.salary =100;
+        System.out.println(Ammar.getSalary());
+    }
+}

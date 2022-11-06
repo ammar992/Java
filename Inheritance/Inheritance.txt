@@ -1,0 +1,45 @@
+
+/////////////// create a class cylender and use getter and setter to set its radius and height and use constrcutor
+
+class Base2{
+    int x;
+
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+}
+
+class  Derived2 extends Base2{
+    int y;
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+}
+public class classpracticeQuestion {
+
+    public static void main(String[] args) {
+        /// Base
+
+        Base2 b = new Base2();
+        b.setX(10);
+        System.out.println(b.getX());
+
+        ///// Derived
+        Derived2 d = new Derived2();
+        d.setX(23);
+        System.out.println(d.getX());
+
+        d.setY(2);
+        System.out.println(d.getY());
+
+    }
+}
